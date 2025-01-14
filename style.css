@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 221, 221);
+    margin: 0;
+    padding: 20px;
+}
+
+.main {
+    font-weight: bold;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(241, 252, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1, 0.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(217, 252, 252);
+    border: 2px solid #242020;
+    border-radius: 20px;
+    resize: vertical;
+}
+
+button{
+    width: 15%;
+    display: flex;
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(89, 223, 228);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;  
+}
+
+button:hover {
+    background-color: rgb(66, 148, 148);
+}
+
+
+
+#output{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #242020;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1, 0.5);
+    border-radius: 10px;
+    border-color: aquamarine;
+}
+
+#output h2 {
+    color: rgb(20, 20, 20);
+    text-align: center;
+    font-size: x-large;
+}
